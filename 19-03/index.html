@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Mulheres em Tech</title>
-
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
+
 <body>
     <nav class="navegacao">
         <img src="./img/logo.png" alt="Mulheres em Tech" class="navegacao__logo">
-       
+
         <ul class="navegacao__menu">
-            <li>Home</li>
-            <li>Sobre</li>
-            <li>Contato</li>
+            <li>
+                <a href="index.html" class="menu__link">Home</a>
+            </li>
+            <li>
+              <a href="sobre.html" target="_blank" class="menu__link">Sobre</a>
+            </li>
+            <li>
+              <a href="contato.html" target="_blank" class="menu__link" class="menu__link">Contato</a> 
+            </li>
         </ul>
-    
-        
+
     </nav>
 
     <section class="conteudo">
-       <div class="conteudo__container">
-           <aside class="conteudo__autora">
-               <img src="./img/autora.jpg" alt="Foto de Hermione Granger" title="Foto de Hermione Granger" class="conteudo__foto">
+        <div class="container">
+            <aside class="conteudo__autora">
+                <img src="./img/autora.jpg" alt="Foto de Hermione Granger" title="Foto de Hermione Granger"
+                    class="autora__foto">
 
-               <p><span class="conteudo__nome">Hermione Granger</span>, bruxa e programadora</p>
-           </aside>
+                <p><span class="conteudo__nome">Hermione Granger</span>, bruxa e programadora</p>
+            </aside>
 
-           <article class="conteudo_artigo">
-               <h3>Conheça mulheres na tecnologia</h3>
-               <ol>
-                   <li>Alda Lovelace</li>
-                   <li>Margareth Hamilton</li>
-                   <li>Grace Hopper</li>
-               </ol>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut sequi, cum consectetur veritatis amet molestiae perferendis magni obcaecati nobis, iure aperiam aliquid distinctio minima eaque veniam laudantium nisi facere enim.</p>
-           </article>
-       </div>
+            <article class="artigo">
+                <h3>Conheça mulheres na tecnologia</h3>
+                <ol>
+                    <li>Alda Lovelace</li>
+                    <li>Margareth Hamilton</li>
+                    <li>Grace Hopper</li>
+                </ol>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut sequi, cum consectetur veritatis amet
+                    molestiae perferendis magni obcaecati nobis, iure aperiam aliquid distinctio minima eaque veniam
+                    laudantium nisi facere enim.</p>
+            </article>
+        </div>
     </section>
+    
+    <footer class="rodape">
+        <img src="./img/reprograma.png" alt="Logo reprograma" title="Logo reprograma" class="logo__pequeno">
+        <p>Desenvolvido por <span class="nome__dev">Ingrid Nascimento</span></p>
+    </footer>
 </body>
+
 </html>
