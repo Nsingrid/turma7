@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Preencha aqui</h1>
+
+    <section>
+
+        <form action="#" method="POST">
+            <div>
+                <label for="nome-da-pessoa">Nome</label>
+                <input type="text" placeholder="Digite seu nome" name="nome-da-pessoa">
+            </div>
+            
+            <div>
+                <label for="senha-da-pessoa">Senha</label>
+                <input type="password" placeholder="Digite sua senha" name="nome-da-pessoa">
+            </div>
+            
+            <div>
+                <label for="email-da-pessoa">Email</label>
+                <input type="email" placeholder="Digite seu e-mail" name="nome-da-pessoa">
+            </div>  
+
+            <div>
+                <label for="idade-da-pessoa">Idade</label>
+                <input type="number" placeholder="Digite seu nome" name="idade-da-pessoa">
+            </div>
+
+            <div>
+                <label for="usuaria-talentosa">Declaro que sou muito talentosa</label>
+                <input type="checkbox" name="usuaria-talentosa">
+            </div>
+
+           <div>
+               <label for="">Selecione sua profissão:</label>
+               <input type="radio" value="programadora" name="profissao"><span>Programadora</span>
+
+               <input type="radio" value="designer" name="profissao"><span>Designer</span>
+               <input type="radio" value="arquiteta" name="profissao"><span>Arquiteta</span>
+           </div>
+           
+           <div>
+               <label for="cidade-da-pessoa">Sua cidade:</label>
+               <select name="cidade-da-pessoa">
+                   <option value="sao-paulo">São Paulo</option>
+                   <option value="rio-de-janeiro">Rio de Janeiro</option>
+                   <option value="ribeirao-pires">Ribeirão Pires</option>
+                </select>
+           </div>
+
+           <div>
+               
+               <textarea name="vida" rows="3" placeholder="Estudei na Reprograma em 2019"></textarea>
+           </div>
+           
+            <div>
+                
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    
+    </section>
+</body>
+
+</html>
